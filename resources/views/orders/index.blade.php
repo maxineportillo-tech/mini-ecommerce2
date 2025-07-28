@@ -9,9 +9,7 @@
         <a href="{{ route('orders.create') }}" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
             Nuevo Pedido
         </a>
-        <a href="{{ route('products.index') }}" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-            Productos
-        </a>
+        
     </div>
 
     @if(session('success'))
